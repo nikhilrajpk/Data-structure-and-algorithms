@@ -2,7 +2,7 @@ nums = [6,1,6,5,7,2,6,8,9,6]
 print(nums)
 i = 0
 j = len(nums)-1
-target = 6
+target = 6                                             # [9, 1, 8, 5, 7, 2, 6, 6, 6, 6]
 while i < j:
     if nums[i] == target:
         if nums[j] == target:
