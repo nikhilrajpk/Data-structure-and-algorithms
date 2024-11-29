@@ -1,10 +1,10 @@
 def twoSum(nums, target):
-    res_map = {}
+    res_map = set()
     for i in nums:
         if target - i in res_map:
             return [target-i,i]
         else:
-            res_map[i] = i
+            res_map.add(i)
     return "No values."
 
 
