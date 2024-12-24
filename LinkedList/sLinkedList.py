@@ -135,7 +135,19 @@ class LinkedList:
                 current.next = after.next
             current = current.next
         return
+    
+    # To reverse the Linked list
+    # def reverse(self):
+    #     if  self.head is None:
+    #         print('empty LL')
+    #         return
         
+    #     temp = self.head
+    #     while temp:
+    #         r_ll.insert_at_beginning(temp.data)
+    #         temp = temp.next
+        
+            
 ll = LinkedList()
 # ll.insert_at_beginning(5)
 # ll.insert_at_beginning(10)
@@ -166,4 +178,9 @@ ll.insert_values([6,10,5,5,5,8,8,9])
 ll.display()
 ll.remove_duplicate()
 
+# r_ll = LinkedList()
+# ll.reverse()
+
 ll.display()
+
+# r_ll.display()
